@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landingpage-3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <nav class="navbar navbar-expand-md  fixed-top header-section">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="./img/Biccas.png" alt="logo" width="100">
+            </a>
+
+            <button class="navbar-toggler border-0 d-md-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-none d-md-flex justify-content-between">
+                <ul class="navbar-nav mx-auto fs-6 fw-medium">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Product</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+                </ul>
+
+                <div class="d-flex gap-3">
+                    <button class="btn fw-semibold text-color">Log in</button>
+                    <button class="sign-up-btn">Sign Up</button>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-end d-md-none" tabindex="-1" id="mobileMenu" data-bs-scroll="false"
+                data-bs-backdrop="true">
+
+                <div class="offcanvas-header border-bottom">
+                    <img src="./img/Biccas.png" width="85" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+
+                <div class="offcanvas-body text-center d-flex flex-column justify-content-between">
+
+                    <ul class="navbar-nav fs-5 fw-medium mt-3">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+                    </ul>
+
+                    <div class="d-flex justify-content-center gap-3 mb-4">
+                        <button class="btn fw-semibold text-secondary">Login</button>
+                        <button class="sign-up-btn">Sign Up</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- hero section -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+
+                    <h1 class="hero-title fw-bold mb-3">
+                        We’re here to <br>
+                        Increase your <br>
+                        Productivity
+                    </h1>
+
+                    <div class="my-3">
+                        <img src="./img/centerline.png" alt="" class="img-fluid hero-line" width="50%">
+                    </div>
+
+                    <p class="hero-text mt-3">
+                        Let's make your work more organized and easily using
+                        the Taskio Dashboard with many of the latest
+                        features in managing work every day.
+                    </p>
+
+                    <div
+                        class="d-flex flex-column flex-sm-row align-items-center gap-3 justify-content-center justify-content-lg-start">
+
+                        <a href="" class="btn btn-success px-4 py-2 rounded-pill">
+                            Try free trial
+                        </a>
+
+                        <a href="" class="btn d-flex align-items-center gap-2 px-3 py-2">
+                            <img src="./img/Play.png" alt="play" width="20" height="20">
+                            <span>View Demo</span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 text-center position-relative">
+                    <img src="./img/hero.png" class="img-fluid hero-main-img" alt="Hero Image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Trusted By Section -->
+    <section class="trusted-section py-5">
+        <div class="container text-center">
+
+            <h4 class="fw-semibold mb-4 fw-bold">
+                More than 25,000 teams use Collabs
+            </h4>
+
+            <div class="row justify-content-center align-items-center g-4 trusted-logos">
+                <div class="col-4 col-sm-4 col-md-2">
+                    <img src="img/Unsplash (2).png" class="img-fluid" alt="Unsplash">
+                </div>
+                <div class="col-4 col-sm-4 col-md-2">
+                    <img src="img/Notaion.png" class="img-fluid" alt="Notion">
+                </div>
+                <div class="col-4 col-sm-4 col-md-2">
+                    <img src="img/intercom.png" class="img-fluid" alt="Intercom">
+                </div>
+                <div class="col-4 col-sm-4 col-md-2">
+                    <img src="img/descript.png" class="img-fluid" alt="Descript">
+                </div>
+                <div class="col-4 col-sm-4 col-md-2">
+                    <img src="img/grammerly.png" class="img-fluid" alt="Grammarly">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- support section -->
+
+    <section class="support-section py-5">
+        <div class="container">
+            <div class="row align-items-center g-4 g-lg-5">
+
+                <div class="col-12 col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <h2 class="support-title fw-bold mb-3">
+                        How we support our <br class="d-none d-md-block">
+                        partner all over the world
+                    </h2>
+
+                    <p class="support-text mb-4 mx-auto mx-lg-0">
+                        SaaS become a common delivery model for many business application, including office software,
+                        messaging software, payroll processing software, DBMS software, management software.
+                    </p>
+
+                    <div class="d-flex flex-column flex-sm-row gap-4 justify-content-center justify-content-lg-start">
+                        <div class="rating-box text-center text-lg-start">
+                            <div class="stars mb-1">★★★★★</div>
+                            <div class="rating-text"><strong>4.9</strong> / 5 rating<br><span>databricks</span></div>
+                        </div>
+
+                        <div class="rating-box text-center text-lg-start">
+                            <div class="stars mb-1">★★★★☆</div>
+                            <div class="rating-text"><strong>4.8</strong> / 5 rating<br><span>Chainalysis</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div
+                        class="feature-item d-flex align-items-start gap-3 mb-4 flex-sm-row flex-column text-center text-sm-start">
+                        <div class="feature-icon mx-auto mx-sm-0">
+                            <img src="./img/feaicon-1.png" alt="" width="30">
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Publishing</h6>
+                            <p class="mb-0 feature-desc">
+                                Plan, collaborate, and publishing your content that drives meaningful engagement and
+                                growth for your brand
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item d-flex gap-3 mb-4 flex-sm-row flex-column text-center text-sm-start">
+                        <div class="feature-icon mx-auto mx-sm-0">
+                            <img src="./img/pie-chart.png" alt="" width="30">
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Analytics</h6>
+                            <p class="mb-0 feature-desc">
+                                Analyze your performance and create gorgeous report
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item d-flex  gap-3 flex-sm-row flex-column text-center text-sm-start">
+                        <div class="feature-icon mx-auto mx-sm-0">
+                            <img src="./img/command.png" alt="" width="30">
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Engagement</h6>
+                            <p class="mb-0 feature-desc">
+                                Quickly navigate you and engage with your audience
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- features section -->
+    <section class="features-section py-5">
+        <div class="container">
+
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-4 text-center text-lg-start mb-3 mb-lg-0">
+                    <h2 class="features-title fw-bold">Our Features<br>you cab get</h2>
+                </div>
+
+                <div class="col-lg-4 text-center text-lg-start mb-3 mb-lg-0">
+                    <p class="features-text">
+                        We offer a variety of interesting features that you can
+                        help increase your productivity at work and manage
+                        your project easily
+                    </p>
+                </div>
+
+                <div class="col-lg-3 text-center text-lg-end">
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+            </div>
+
+            <div class="row text-center">
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="feature-card">
+                        <img src="./img/img1.png" class="img-fluid mb-3" alt="">
+                        <h5 class="fw-bold">Collaboration Teams</h5>
+                        <p class="fea-color">
+                            Here you can handle projects together <br> with team virtually
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="feature-card">
+                        <img src="./img/img2.png" class="img-fluid mb-3" alt="">
+                        <h5 class="fw-bold">Cloud Storage</h5>
+                        <p class="fea-color">
+                            No need to worry about storage <br> because we provide storage up to 2 TB
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="feature-card">
+                        <img src="./img/img3.png" class="img-fluid mb-3" alt="">
+                        <h5 class="fw-bold">Daily Analytics</h5>
+                        <p class="fea-color">
+                            We always provide useful information to <br> make it easier for you every day
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--benefit section  -->
+    <section class="benefit-section py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-6">
+
+                    <h2 class="benefit-title fw-bold mb-4">
+                        What Benefit Will <br> You Get
+                    </h2>
+
+                    <ul class="benefit-list list-unstyled">
+
+                        <li class="d-flex align-items-center mb-3">
+                            <span class="check-icon me-3">
+                                <i class="fa-solid fa-check"></i> </span>
+                            Free Consulting With Expert Saving Money
+                        </li>
+
+                        <li class="d-flex align-items-center mb-3">
+                            <span class="check-icon me-3"><i class="fa-solid fa-check"></i></span>
+                            Online Banking
+                        </li>
+
+                        <li class="d-flex align-items-center mb-3">
+                            <span class="check-icon me-3"><i class="fa-solid fa-check"></i></span>
+                            Investment Report Every Month
+                        </li>
+
+                        <li class="d-flex align-items-center mb-3">
+                            <span class="check-icon me-3"><i class="fa-solid fa-check"></i></span>
+                            Saving Money For The Future
+                        </li>
+
+                        <li class="d-flex align-items-center">
+                            <span class="check-icon me-3"><i class="fa-solid fa-check"></i></span>
+                            Online Transaction
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-6 position-relative">
+
+                    <img src="./img/benefitimg.png" alt="" class="img-fluid benefit-img">
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- choose plan section -->
+    <section class="choose-plan-section py-5">
+        <div class="container">
+            <div>
+                <h3 class="fw-bold text-center">Choose Plan <br>
+                    That’s Right For You</h3>
+                <p class="text-secondary fw-semibold text-center mt-3">Choose plan that works best for you, feel free to
+                    contact us</p>
+            </div>
+            <div class="container my-4">
+                <div class="d-flex justify-content-center">
+
+                    <div class="billing-toggle d-flex align-items-center">
+                        <div class="toggle-option yearly">
+                            Bill Monthly
+                        </div>
+
+                        <div class="toggle-option monthly active">
+                            Bill Yearly
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <div class="row">
+                    <div class="col-4">
+                        <div>
+                            <img src="./img/image1.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div>
+                            <img src="./img/image2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div>
+                            <img src="./img/image3.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="people-section text-white">
+        <div class="container">
+            <div class="row align-items-center justify-content-between gy-5">
+
+                <div class="col-lg-6">
+                    <h2 class="section-title">People are Saying<br>About DoWhith</h2>
+                    <p class="section-subtext mt-3 fw-medium">
+                        Everything you need to accept payments and grow <br> your money anywhere on planet.
+                    </p>
+
+                    <div class="mt-3">
+                        <img src="./img/footerimg.png" alt="">
+                    </div>
+
+                    <p class="testimonial-text mt-3 fw-medium">
+                        I am very helped by this E-wallet application, my <br> days are very easy to use this
+                        application and it's very <br> helpful in my life, even I can pay a short time😍
+                    </p>
+
+                    <div class="d-flex align-items-center gap-3 mt-3 flex-wrap">
+                        <p class="footer-subtitle fw-medium">- Aria Zanna</p>
+
+                    </div>
+                    <div class="user-avatars d-flex gap-3 mt-3">
+                        <img src="img/grp-1.png" alt="">
+                        <img src="img/grp-2.pngg.png" alt="">
+                        <img src="img/grp-3.png" alt="">
+                        <img src="img/grp-4.png" alt="">
+                        <img src="img/grp-5.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="cta-card">
+                        <div class="text-center">
+                            <img src="./img/db.png" alt="">
+                        </div>
+                        <h5 class="text-center mt-3 mb-3">Get Started</h5>
+                        <form>
+                            <label for="email" class="text-white">Email</label>
+
+                            <input type="email" class="form-control bg-white mt-3 mb-3" placeholder="Enter your email">
+                            <label for="message" class="text-white">Message</label>
+
+                            <textarea class="form-control bg-white mt-3 mb-3" rows="3"
+                                placeholder="What are you say?"></textarea>
+                            <button class="btn req-demo text-white fw-semibold w-100">Request Demo</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row  mt-5 pt-5 justify-content-between">
+                <div class="col-lg-4 mb-4">
+                    <div>
+                        <img src="./img/Biccas.png" alt="" width="100px">
+                    </div>
+                    <p class="footer-subtitle fw-medium mt-3">Get started now try our product</p>
+                    <div class="input d-flex justify-content-between">
+                        <p class="text-center footer-subtitle mt-3 ms-3">Enter your email here</p>
+                        <button class="right-arrow mt-2 me-3">
+                            <img src="./img/arrow-right1.png" alt="">
+                        </button> 
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <h6>Support</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li>Help centre</li>
+                        <li>Account information</li>
+                        <li>About</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <h6>Help and Solution</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li>Talk to support</li>
+                        <li>Support docs</li>
+                        <li>System status</li>
+                        <li>Covid response</li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <h6>Product</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li>Update</li>
+                        <li>Security</li>
+                        <li>Beta test</li>
+                        <li>Pricing product</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 d-flex justify-content-between footer-copyright align-items-center fw-medium  text-white pt-3">
+                    © 2022 Biccas Inc. Copyright and rights 
+                    <p class="fw-medium text-white pt-3">Terms and Condtions . Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
